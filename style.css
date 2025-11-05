@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0,0,33);
+    color: white;
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18,18,62);
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(133, 133, 241);
+    font-size: 1.02rem;
+}
+
+.left{
+    font-size: 1.5rem;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+
+}
+
+
+.firstSection > div{
+    width: 30%;
+}
+
+
+.leftSection{
+    font-size: 2.5rem;
+}
+
+
+.rightSection img{
+    width: 80%;
+}
+
+.purple{
+    color: rgb(157, 83, 226);
+}
+
+#element{
+    color: rgb(128, 128, 242);
+}
+
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondSection h1{
+    font-size: 1.5rem;
+}
+
+.text-gray{
+    color: gray;
+}
+
+.text-gray h5{
+    margin-top: -60px;
+   
+}
+
+main hr{
+    border: 0;
+    background-color: rgb(95, 95, 234);
+    height: 1px;
+    margin: 40px 84px;
+    margin-bottom: 70px;
+
+}
+.secondSection .box{
+    width: 80vw;
+    height: 2px;
+    background-color: white;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.secondSection .vertical{
+    height: 5px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+/* .secondSection .vertical-text{
+    margin: 2px -25px;
+} */
+
+.secondSection .cards{
+    width: 200px;
+    height: 300px;
+    
+    margin-top: 180px;
+    margin-left: 22px;
+    border-radius: 5%;
+}
+
+.secondSection .cardstructure{
+    display: flex;
+    justify-content: space-around;
+}
+.image-top{
+    width: 60px;
+    margin-left: -27px;
+}  
+
+
+.vertical-text{
+    color: white;
+    margin: -3px -56px;
+}
+
+.thirdSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+#bt{
+   margin-top: 12px;
+}
+
+.thirdSection .techBox{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;   
+    display: flex;
+    justify-content: space-around;
+    margin: 0 20px;
+}
+
+.thirdSection .techBox .tech{
+    width: 150px;
+    height: 150px;
+    background-color: coral;
+    margin: 10px;
+    border-radius: 50%;
+}
+.thirdSection .techBox .tech img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+.thirdSection .techBox .tech img:hover{
+    cursor: pointer;
+    transform: scale(1.1) translateY(-5px);
+    box-shadow: 0 10px 20px rgba(242, 240, 240, 0.4);
+}
+
+.thirdSection .techBox .tech .text{
+    color: white;
+    width: 150px;
+    height: 150px;
+
+}
+.texts{
+    color: pink;
+
+}
+
+.thirdSection .box{
+    width: 80vw;
+    height: 2px;
+    background-color: white;
+    margin: 20px 0;
+}
+.thirdSection .btn{
+    margin-top: 50px;
+    background-color: rgb(6, 2, 37);
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    height: 70px;
+    border-color: aquamarine;
+}
+
+.thirdSection .btn:hover{
+    cursor: pointer;
+    transform: scale(1.1) translateY(-5px);
+    box-shadow: 0 10px 20px rgba(242, 240, 240, 0.4);
+}
+
+.leftSection .btn1{
+    margin: 20px;
+    color: rgb(3, 4, 58);
+    background-color: rgb(245, 245, 250);
+    border-radius: 5%;
+    height: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+    padding: 5px;
+}
+.leftSection .btn1:hover{
+    cursor: pointer;
+    transform: scale(1.1) translateY(-5px);
+    box-shadow: 0 10px 20px rgba(242, 240, 240, 0.4);
+}
+
+.cardstructure .btn1{
+    margin: 20px 27px;
+    color: white;
+    background-color: rgb(8, 8, 186);
+    border-radius: 5%;
+    height: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+    padding: 5px;
+}
+.cardstructure .btn1:hover{
+    cursor: pointer;
+    transform: scale(1.1) translateY(-5px);
+    box-shadow: 0 10px 20px rgba(242, 240, 240, 0.4);
+    color: rgb(0,0,33);
+}
+
+
+.fourthsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.fourthsection .box{
+    width: 80vw;
+    height: 2px;
+    background-color: white;
+    margin: 20px 0;
+    justify-content: center;
+
+}
+
+.fourthsection .card{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(150, 218, 218);
+    
+}
+
+.card .recta{
+    width: 1000px;
+    height: 150px;
+    margin: -115px 140px;
+    border-radius: 10px;
+}
+
+.recta h5{
+    color: rgb(248, 245, 245);
+    font-family: sans-serif;
+    padding: 5px;
+    font-size: 1.3rem;
+
+}
+.card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.card2 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.card3 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#h h5{
+    margin: -100px 0px;
+}
+
+.fourthsection .card1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(150, 218, 218);
+    
+}
+
+.fourthsection .card2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(150, 218, 218);
+    
+}
+
+.card1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.fourthsection .card3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(150, 218, 218);
+    
+}
+
+.card1 .recta{
+    width: 1000px;
+    height: 150px;
+    
+    margin: 0px 140px;
+    border-radius: 10px;
+}
+.card2 .recta{
+    width: 1000px;
+    height: 150px;
+
+    margin: -15px 140px;
+    border-radius: 10px;
+}
+.card3 .recta{
+    width: 1000px;
+    height: 150px;
+
+    margin: -4px 140px;
+    border-radius: 10px;
+}
+
+.fifthsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.fifthsection .text-gray, h1{
+    margin: 10px 0px;
+}
+
+
+.fifthsection .box{
+    width: 80vw;
+    height: 2px;
+    background-color: white;
+    margin: 20px 0;
+    justify-content: center;
+
+}
+
+.btn1{
+    margin: 20px;
+    color: rgb(3, 4, 58);
+    background-color: rgb(245, 245, 250);
+    border-radius: 5%;
+    height: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+    padding: 5px;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    transform: scale(1.1) translateY(-5px);
+    box-shadow: 0 10px 20px rgba(242, 240, 240, 0.4);
+}
