@@ -250,7 +250,7 @@ main hr{
 .fourthsection{
     max-width: 80vw;
     margin: auto;
-    height: 80vh;
+    height: 110vh;
 }
 
 .fourthsection .box{
@@ -394,4 +394,5 @@ main hr{
     cursor: pointer;
     transform: scale(1.1) translateY(-5px);
     box-shadow: 0 10px 20px rgba(242, 240, 240, 0.4);
+
 }
